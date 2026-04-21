@@ -16,6 +16,7 @@ const transactionSchema = new mongoose.Schema({
   },
   category: {
     type: String,
+    required: true
   },
   date: {
     type: Date,
